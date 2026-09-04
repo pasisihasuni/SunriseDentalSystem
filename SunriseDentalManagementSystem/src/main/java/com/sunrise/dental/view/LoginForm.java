@@ -211,11 +211,9 @@ try {
                 "Login Successful"
         );
 
-        // MainMenuForm will be created next
-        // MainMenuForm mainMenu = new MainMenuForm();
-        // mainMenu.setVisible(true);
-
-        // this.dispose();
+       MainMenuForm mainMenu = new MainMenuForm();
+mainMenu.setVisible(true);
+this.dispose();
 
     } else {
 

@@ -20,6 +20,10 @@ public class BackendServer {
                     "/api/login",
                     new LoginHandler()
             );
+            server.createContext(
+        "/api/appointments/register",
+        new RegisterAppointmentHandler()
+);
 
             server.setExecutor(null);
 

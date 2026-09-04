@@ -1,2 +1,4 @@
 com\sunrise\dental\view\LoginForm.class
 com\mycompany\sunrisedentalmanagementsystem\SunriseDentalManagementSystem.class
+com\sunrise\dental\view\MainMenuForm.class
+com\sunrise\dental\view\RegisterAppointmentForm.class
