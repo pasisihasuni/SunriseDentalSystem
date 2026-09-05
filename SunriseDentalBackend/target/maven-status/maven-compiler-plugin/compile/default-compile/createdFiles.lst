@@ -9,11 +9,16 @@ com\sunrise\dental\dao\PatientDAO.class
 com\sunrise\dental\database\DatabaseConnection.class
 com\sunrise\dental\model\User.class
 com\sunrise\dental\database\DatabaseTest.class
+com\sunrise\dental\service\BillingService.class
 com\sunrise\dental\dao\AppointmentDAO.class
 com\sunrise\dental\service\AppointmentService.class
+com\sunrise\dental\model\Bill.class
+com\sunrise\dental\api\BillingHandler.class
 com\sunrise\dental\model\Patient.class
 com\sunrise\dental\api\LoginApiTest.class
 com\sunrise\dental\api\LoginHandler.class
+com\sunrise\dental\dao\BillingDAO.class
 com\sunrise\dental\dao\UserDAOTest.class
 com\sunrise\dental\api\BackendServer.class
 com\sunrise\dental\dao\UserDAO.class
+com\sunrise\dental\api\BillingApiTest.class

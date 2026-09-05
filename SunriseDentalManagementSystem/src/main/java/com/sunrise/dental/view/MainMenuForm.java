@@ -48,6 +48,7 @@ public class MainMenuForm extends javax.swing.JFrame {
         btnSearchAppointment.addActionListener(this::btnSearchAppointmentActionPerformed);
 
         btnBilling.setText("Calculate / Print Bill");
+        btnBilling.addActionListener(this::btnBillingActionPerformed);
 
         btnReports.setText("Reports");
 
@@ -140,6 +141,12 @@ searchForm.setVisible(true);
 
 this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_btnSearchAppointmentActionPerformed
+
+    private void btnBillingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBillingActionPerformed
+BillingForm billingForm = new BillingForm();
+billingForm.setVisible(true);
+this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_btnBillingActionPerformed
 
     /**
      * @param args the command line arguments

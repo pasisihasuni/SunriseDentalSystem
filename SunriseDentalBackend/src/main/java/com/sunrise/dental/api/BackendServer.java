@@ -28,6 +28,10 @@ public class BackendServer {
         "/api/appointments/search",
         new SearchAppointmentHandler()
 );
+            server.createContext(
+        "/api/billing/calculate",
+        new BillingHandler()
+);
 
             server.setExecutor(null);
 
