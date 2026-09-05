@@ -9,6 +9,20 @@ public class AppointmentService {
 
     private final PatientDAO patientDAO;
     private final AppointmentDAO appointmentDAO;
+    
+    public java.util.Map<String, String> searchAppointment(
+        String appointmentNo) {
+
+    if (appointmentNo == null
+            || appointmentNo.trim().isEmpty()) {
+
+        return null;
+    }
+
+    return appointmentDAO.searchAppointment(
+            appointmentNo.trim()
+    );
+}
 
     public AppointmentService() {
         patientDAO = new PatientDAO();

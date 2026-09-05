@@ -45,6 +45,7 @@ public class MainMenuForm extends javax.swing.JFrame {
         btnRegisterAppointment.addActionListener(this::btnRegisterAppointmentActionPerformed);
 
         btnSearchAppointment.setText("Search Appointment");
+        btnSearchAppointment.addActionListener(this::btnSearchAppointmentActionPerformed);
 
         btnBilling.setText("Calculate / Print Bill");
 
@@ -130,6 +131,15 @@ form.setVisible(true);
 
 this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_btnRegisterAppointmentActionPerformed
+
+    private void btnSearchAppointmentActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSearchAppointmentActionPerformed
+SearchAppointmentForm searchForm =
+        new SearchAppointmentForm();
+
+searchForm.setVisible(true);
+
+this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_btnSearchAppointmentActionPerformed
 
     /**
      * @param args the command line arguments

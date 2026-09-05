@@ -24,6 +24,10 @@ public class BackendServer {
         "/api/appointments/register",
         new RegisterAppointmentHandler()
 );
+            server.createContext(
+        "/api/appointments/search",
+        new SearchAppointmentHandler()
+);
 
             server.setExecutor(null);
 

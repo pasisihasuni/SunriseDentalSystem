@@ -1,4 +1,6 @@
 com\sunrise\dental\api\RegisterAppointmentApiTest.class
+com\sunrise\dental\api\SearchAppointmentApiTest.class
+com\sunrise\dental\api\SearchAppointmentHandler.class
 com\sunrise\dental\model\Appointment.class
 com\sunrise\dental\api\RegisterAppointmentHandler.class
 com\sunrise\dental\service\UserService.class

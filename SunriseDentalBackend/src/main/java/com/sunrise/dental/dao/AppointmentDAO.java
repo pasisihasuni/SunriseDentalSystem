@@ -105,4 +105,93 @@ public class AppointmentDAO {
 
         return false;
     }
+    public java.util.Map<String, String> searchAppointment(String appointmentNo) {
+
+    String sql = """
+            SELECT
+                a.appointment_no,
+                p.name AS patient_name,
+                p.address,
+                p.contact_number,
+                a.dentist_name,
+                t.treatment_type,
+                a.appointment_date,
+                a.appointment_time,
+                a.status
+            FROM appointments a
+            INNER JOIN patients p
+                ON a.patient_id = p.patient_id
+            INNER JOIN treatments t
+                ON a.treatment_id = t.treatment_id
+            WHERE a.appointment_no = ?
+            """;
+
+    try (
+            Connection connection = DatabaseConnection.getConnection();
+            PreparedStatement statement = connection.prepareStatement(sql)
+    ) {
+
+        statement.setString(1, appointmentNo);
+
+        ResultSet resultSet = statement.executeQuery();
+
+        if (resultSet.next()) {
+
+            java.util.Map<String, String> data =
+                    new java.util.HashMap<>();
+
+            data.put(
+                    "appointmentNo",
+                    resultSet.getString("appointment_no")
+            );
+
+            data.put(
+                    "patientName",
+                    resultSet.getString("patient_name")
+            );
+
+            data.put(
+                    "address",
+                    resultSet.getString("address")
+            );
+
+            data.put(
+                    "contactNumber",
+                    resultSet.getString("contact_number")
+            );
+
+            data.put(
+                    "dentistName",
+                    resultSet.getString("dentist_name")
+            );
+
+            data.put(
+                    "treatmentType",
+                    resultSet.getString("treatment_type")
+            );
+
+            data.put(
+                    "appointmentDate",
+                    resultSet.getString("appointment_date")
+            );
+
+            data.put(
+                    "appointmentTime",
+                    resultSet.getString("appointment_time")
+            );
+
+            data.put(
+                    "status",
+                    resultSet.getString("status")
+            );
+
+            return data;
+        }
+
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+
+    return null;
+}
 }
