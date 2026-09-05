@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sunrise.dental.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.003 s -- in com.sunrise.dental.service.UserServiceTest
