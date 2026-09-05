@@ -54,6 +54,7 @@ public class MainMenuForm extends javax.swing.JFrame {
         btnReports.addActionListener(this::btnReportsActionPerformed);
 
         btnHelp.setText("Help");
+        btnHelp.addActionListener(this::btnHelpActionPerformed);
 
         btnLogout.setText("Logout");
         btnLogout.addActionListener(this::btnLogoutActionPerformed);
@@ -157,6 +158,12 @@ reportsForm.setVisible(true);
 
 this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_btnReportsActionPerformed
+
+    private void btnHelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHelpActionPerformed
+HelpForm helpForm = new HelpForm();
+helpForm.setVisible(true);
+this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_btnHelpActionPerformed
 
     /**
      * @param args the command line arguments
