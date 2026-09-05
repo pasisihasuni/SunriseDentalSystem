@@ -1,4 +1,5 @@
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\mycompany\sunrisedentalbackend\SunriseDentalBackend.java
+C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\AppointmentsByDateHandler.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\BackendServer.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\BillingApiTest.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\BillingHandler.java
@@ -8,9 +9,11 @@ C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBack
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\RegisterAppointmentHandler.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\SearchAppointmentApiTest.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\SearchAppointmentHandler.java
+C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\api\TreatmentSummaryHandler.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\dao\AppointmentDAO.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\dao\BillingDAO.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\dao\PatientDAO.java
+C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\dao\ReportDAO.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\dao\UserDAO.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\dao\UserDAOTest.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\database\DatabaseConnection.java
@@ -21,4 +24,5 @@ C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBack
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\model\User.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\service\AppointmentService.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\service\BillingService.java
+C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\service\ReportService.java
 C:\Users\Danidu\Documents\NetBeansProjects\SunriseDentalSystem\SunriseDentalBackend\src\main\java\com\sunrise\dental\service\UserService.java

@@ -51,6 +51,7 @@ public class MainMenuForm extends javax.swing.JFrame {
         btnBilling.addActionListener(this::btnBillingActionPerformed);
 
         btnReports.setText("Reports");
+        btnReports.addActionListener(this::btnReportsActionPerformed);
 
         btnHelp.setText("Help");
 
@@ -147,6 +148,15 @@ BillingForm billingForm = new BillingForm();
 billingForm.setVisible(true);
 this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_btnBillingActionPerformed
+
+    private void btnReportsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReportsActionPerformed
+ReportsForm reportsForm =
+        new ReportsForm();
+
+reportsForm.setVisible(true);
+
+this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_btnReportsActionPerformed
 
     /**
      * @param args the command line arguments

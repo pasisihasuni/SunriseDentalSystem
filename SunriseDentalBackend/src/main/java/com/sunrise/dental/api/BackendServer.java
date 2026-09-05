@@ -32,6 +32,15 @@ public class BackendServer {
         "/api/billing/calculate",
         new BillingHandler()
 );
+            server.createContext(
+        "/api/reports/appointments-by-date",
+        new AppointmentsByDateHandler()
+);
+
+server.createContext(
+        "/api/reports/treatment-summary",
+        new TreatmentSummaryHandler()
+);
 
             server.setExecutor(null);
 
